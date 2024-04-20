@@ -16,6 +16,7 @@ body {
   font-family: Spartan, sans-serif;
   font-size: 12px;
   zoom: 350%;
+  background-color: #4fc6ed;
 }
 
 .player-container {
@@ -26,6 +27,7 @@ body {
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
   margin-bottom: auto;
   margin-top: 70px;
+  background-color: cyan;
 }
 
 .img-container {
@@ -96,6 +98,7 @@ h3 {
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
+  color: darkblue;
 }
 
 .fas:hover {
@@ -106,6 +109,7 @@ h3 {
   font-size: 40px;
   position: relative;
   top: 3px;
+  color: darkblue;
 }
 
 /* Media Query: iPhone (Vertical) */
