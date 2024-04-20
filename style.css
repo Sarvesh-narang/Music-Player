@@ -15,6 +15,7 @@ body {
   align-items: center;
   font-family: Spartan, sans-serif;
   font-size: 12px;
+  zoom: 350%;
 }
 
 .player-container {
@@ -23,6 +24,8 @@ body {
   background: #e7e7e7;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: auto;
+  margin-top: 70px;
 }
 
 .img-container {
@@ -107,8 +110,12 @@ h3 {
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
+  
   .player-container {
     width: 95vw;
+    margin-top: 30px; /* Adjust margin for mobile view */
+    margin-bottom: 0; /* Adjust margin for mobile view */
+    
   }
 
   .img-container {
@@ -126,5 +133,9 @@ h3 {
   .player-controls {
     top: -10px;
     left: 100px;
+  }
+
+  body{
+    zoom: 100%;
   }
 }
