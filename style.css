@@ -1,35 +1,33 @@
 /* Images created by: https://unsplash.com/@pawel_czerwinski */
-@font-face {
-  font-family: spartan;
-  src: url(./League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
-}
+
+@import url("https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap");
 
 html {
   box-sizing: border-box;
-  font-family: spartan;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  background: #6f00ff;
+  background: #c9ced3;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Spartan, sans-serif;
   font-size: 12px;
 }
 
 .player-container {
   height: 500px;
   width: 400px;
-  background-color: #c0c0c0;
+  background: #e7e7e7;
   border-radius: 20px;
-  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
 .img-container {
-  height: 300px;
   width: 300px;
+  height: 300px;
   position: relative;
   top: -50px;
   left: 50px;
@@ -40,7 +38,7 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -54,7 +52,6 @@ h3 {
   text-align: center;
   font-weight: 400;
   margin: 5px 0 0;
-  font-family: spartan;
 }
 
 /* Progress */
@@ -71,7 +68,6 @@ h3 {
   background: #242323;
   border-radius: 5px;
   height: 100%;
-  /* change this to show progress */
   width: 0%;
   transition: width 0.1s linear;
 }
@@ -89,23 +85,17 @@ h3 {
   top: -15px;
   left: 120px;
   width: 200px;
-  z-index: 999;
 }
 
-.fa-solid {
+.fas {
   font-size: 30px;
-  color: #5a2a29;
+  color: rgb(129, 129, 129);
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
-  width: 30px;
 }
 
-.fa-solid.fa-play,
-.fa-solid.fa-pause {
-  width: 30px;
-}
-.fa-solid:hover {
+.fas:hover {
   filter: brightness(80%);
 }
 
@@ -113,24 +103,20 @@ h3 {
   font-size: 40px;
   position: relative;
   top: 3px;
-  width: 40px;
 }
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .player-container {
     width: 95vw;
-    height: 85vh;
   }
 
   .img-container {
     left: 29px;
-    top: -29px;
   }
 
   h2 {
-    font-size: 23px;
-    margin-top: 3px;
+    font-size: 20px;
   }
 
   h3 {
