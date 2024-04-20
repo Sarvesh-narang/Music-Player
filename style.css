@@ -27,7 +27,7 @@ body {
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
   margin-bottom: auto;
   margin-top: 70px;
-  background-color: cyan;
+  background-color: #00FFFF;
 }
 
 .img-container {
@@ -98,7 +98,7 @@ h3 {
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
-  color: darkblue;
+  color: #00008B;
 }
 
 .fas:hover {
@@ -109,7 +109,7 @@ h3 {
   font-size: 40px;
   position: relative;
   top: 3px;
-  color: darkblue;
+  color: #00008B;
 }
 
 /* Media Query: iPhone (Vertical) */
